@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 USERNAME = "noname" if len(sys.argv)<2 else sys.argv[1]
 
 # Set your broker host and port
-HOST = "172.29.183.75"
+HOST = "broker.hivemq.com"
 PORT = 1883
 
 # Create topics
